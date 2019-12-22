@@ -13,7 +13,7 @@ const AboutPage = ({ data }) => {
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
           <header className="">
-            <h2 className="list-post-title">// Stuart Mackenzie</h2>
+            <h2 className="list-post-title">&frasl;&frasl; Stuart Mackenzie</h2>
           </header>
           <article className="about-text">
             <p>

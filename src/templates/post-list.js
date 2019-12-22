@@ -17,7 +17,7 @@ const BlogPage = ({ data, pageContext }) => {
       <SEO title="Blog" />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
-          <h2 className="list-post-title">// Blog Posts</h2>
+          <h2 className="list-post-title">&frasl;&frasl; Blog Posts</h2>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

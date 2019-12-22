@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
-          <h2 className="list-post-title">// Be Human</h2>
+          <h2 className="list-post-title">&frasl;&frasl; Be Human</h2>
           <section className="intro-text">
             <p>
               Welcome to the online space of Stuart Mackenzie - Creative plate
@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
               <Link to="/about/">|| MORE...</Link>
             </p>
           </section>
-          <h2 className="list-post-title">// Latest Posts</h2>
+          <h2 className="list-post-title">&frasl;&frasl; Latest Posts</h2>
           <section className="latest-posts">
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
