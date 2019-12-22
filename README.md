@@ -1,4 +1,4 @@
-## BeHuman -
+## BeHuman
 
 ### Purpose
 
