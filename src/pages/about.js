@@ -12,9 +12,9 @@ const AboutPage = ({ data }) => {
       <SEO title="About" />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
-          <header className="">
+          <div className="">
             <h2 className="list-post-title">&frasl;&frasl; Stuart Mackenzie</h2>
-          </header>
+          </div>
           <article className="about-text">
             <p>
               Stuart Mackenzie Lives in Dorset but working out of London

@@ -109,8 +109,8 @@ a:hover {
 
 .post-header {
   background-color: #ffb700;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .post-title {
@@ -133,4 +133,19 @@ a:hover {
   font-weight: normal;
   font-size: 0.7rem;
   line-height: 1.5rem;
+}
+
+.post-content {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1rem;
+  color: #111;
+  padding-bottom: 6rem !important;
+}
+
+.post-content li {
+  padding-bottom: 1rem;
+}
+
+.post-content p {
+  padding-bottom: 0.6rem;
 }

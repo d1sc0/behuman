@@ -16,7 +16,7 @@ const PostPage = ({ data }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-        <header className="post-header">
+        <div className="post-header">
           <div className="row py-5 justify-content-md-center mx-2">
             <div className="col col-md-8">
               <small className="post-date">{post.frontmatter.date}</small>
@@ -27,8 +27,8 @@ const PostPage = ({ data }) => {
               <p className="post-byline">By {data.site.siteMetadata.author}</p>
             </div>
           </div>
-        </header>
-        <div className="row py-5 justify-content-md-center mx-2">
+        </div>
+        <div className="post-content row py-3 justify-content-md-center mx-2">
           <div className="col col-md-8">
             <MDXRenderer>{post.body}</MDXRenderer>
           </div>
