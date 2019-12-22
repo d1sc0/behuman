@@ -19,8 +19,9 @@ Create a new personal site/blog using serverless....
 1. Finish theming blog articles - WIP
 2. See if can use MDX - Sorted
 3. Migrate old content
-4. Check out SEO and twitter cards
-5. Config CircleCI/ Stand up on Zeit
-6. Configure new domain
-7. Tidy
-8. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
+4. Write about page
+5. Check out SEO and twitter cards
+6. Config CircleCI/ Stand up on Zeit
+7. Configure new domain
+8. Tidy
+9. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
