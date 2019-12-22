@@ -1,23 +1,23 @@
 ## BeHuman
 
-### Purpose
+### Purpose / Goal
 
 Create a new personal site/blog using serverless....
 
-- Want to explore improving web performance to reduce carbon emissions and understand the challenges.
+- So I can explore improving site performance to reduce carbon emissions and understand the challenges.
 - Remove my AWS costs for a seldom used ghost blog.
-- Build something that allows me to learn new skills and exercise the brain in other ways
+- Build something that allows me to learn new things and exercise the brain.
 
 ### To use...
 
-1.download/clone
-2.npm install
-3.gatsby develop / build
+1. download/clone
+2. npm install
+3. gatsby develop / build
 
 #### To do list...
 
-1. Finish theming blog articles
-2. See if can use MDX
+1. Finish theming blog articles - WIP
+2. See if can use MDX - Sorted
 3. Migrate old content
 4. Config CircleCI/ Stand up on Zeit
 5. Configure new domain

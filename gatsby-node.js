@@ -4,7 +4,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const { data } = await graphql(`
     {
-      posts: allMarkdownRemark(
+      posts: allMdx(
         sort: { fields: [frontmatter___date], order: DESC }
         limit: 1000
       ) {

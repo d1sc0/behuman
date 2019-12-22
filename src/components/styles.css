@@ -127,3 +127,10 @@ a:hover {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
+
+.post-date {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
