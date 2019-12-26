@@ -178,11 +178,12 @@ blockquote {
 .post-content h6 {
   font-weight: bold;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .gatsby-resp-image-wrapper + em {
   font-style: normal;
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
   font-family: sans-serif;
   color: gray;
   display: inherit;

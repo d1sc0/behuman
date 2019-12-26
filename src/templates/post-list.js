@@ -23,7 +23,7 @@ const BlogPage = ({ data, pageContext }) => {
             return (
               <article key={node.frontmatter.slug} className="post-summary">
                 <div className="row">
-                  <div className="col-sm">
+                  <div className="col-sm-8">
                     <h3>
                       <Link
                         className="highlight"
