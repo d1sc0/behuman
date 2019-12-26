@@ -174,7 +174,18 @@ blockquote {
 .post-content h2,
 .post-content h3,
 .post-content h4,
-.post-content h5 {
+.post-content h5,
+.post-content h6 {
   font-weight: bold;
   padding-top: 1rem;
+}
+
+.gatsby-resp-image-wrapper + em {
+  font-style: normal;
+  padding-top: 0.5em;
+  font-family: sans-serif;
+  color: gray;
+  display: inherit;
+  text-align: center;
+  font-size: 80%;
 }
