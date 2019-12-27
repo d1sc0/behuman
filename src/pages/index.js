@@ -18,7 +18,9 @@ const IndexPage = ({ data }) => {
               spinner and experienced leader of product & technology teams
               working in Public Services. I use this site as a sandbox to test
               ideas and occassionally share random thoughts.{' '}
-              <Link to="/about/">|| MORE...</Link>
+              <Link className="post-nav" to="/about/">
+                Find out more...
+              </Link>
             </p>
           </section>
           <h2 className="list-post-title">&frasl;&frasl; Latest Posts</h2>
@@ -44,21 +46,27 @@ const IndexPage = ({ data }) => {
                       </small>
                     </div>
                   </div>
-                  <section>
-                    <p
-                      className="post-excerpt"
-                      dangerouslySetInnerHTML={{
-                        __html: node.frontmatter.description || node.excerpt,
-                      }}
-                    />
-                  </section>
+                  <div className="row">
+                    <div className="col">
+                      <p
+                        className="post-excerpt"
+                        dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }}
+                      />
+                    </div>
+                  </div>
                 </article>
               )
             })}
           </section>
-          <Link className="text-right" to="/blog/">
-            || MORE...
-          </Link>
+          <div className="post-nav">
+            <div className="row">
+              <div className="col text-right">
+                <Link to="/blog/">More Posts &gt;&gt;</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>

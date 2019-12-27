@@ -39,28 +39,36 @@ const BlogPage = ({ data, pageContext }) => {
                     </small>
                   </div>
                 </div>
-                <section>
-                  <p
-                    className="post-excerpt"
-                    dangerouslySetInnerHTML={{
-                      __html: node.frontmatter.description || node.excerpt,
-                    }}
-                  />
-                </section>
+                <div className="row">
+                  <div className="col">
+                    <p
+                      className="post-excerpt"
+                      dangerouslySetInnerHTML={{
+                        __html: node.frontmatter.description || node.excerpt,
+                      }}
+                    />
+                  </div>
+                </div>
               </article>
             )
           })}
-          <div className="">
-            {!isFirst && (
-              <Link to={`/blog/${prevPage}`} className="" rel="prev">
-                Previous Page |
-              </Link>
-            )}
-            {!isLast && (
-              <Link to={`/blog/${nextPage}`} className="" rel="next">
-                | Next Page
-              </Link>
-            )}
+          <div className="post-nav">
+            <div className="row">
+              {!isFirst && (
+                <div className="col">
+                  <Link to={`/blog/${prevPage}`} rel="prev">
+                    &lt;&lt; Previous Page
+                  </Link>
+                </div>
+              )}
+              {!isLast && (
+                <div className="col text-right">
+                  <Link to={`/blog/${nextPage}`} rel="next">
+                    Next Page &gt;&gt;
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
