@@ -63,7 +63,7 @@ const IndexPage = ({ data }) => {
           <div className="post-nav">
             <div className="row">
               <div className="col text-right">
-                <Link to="/blog/">More Posts &gt;&gt;</Link>
+                <Link to="/blog/">Visit Blog &gt;&gt;</Link>
               </div>
             </div>
           </div>
