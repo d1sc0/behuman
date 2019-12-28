@@ -16,9 +16,9 @@ Create a new personal site/blog using serverless....
 
 #### To do list...
 
-1. Finish theming blog articles - WIP
-2. See if can use MDX - Sorted
-3. Migrate old content - In Progress
+1. Finish theming blog articles - Done
+2. See if can use MDX - Done
+3. Migrate old content - Done
 4. Write about page
 5. Check out SEO and twitter cards
 6. Config CircleCI/ Stand up on Zeit
