@@ -10,6 +10,10 @@ a:hover {
   text-decoration: none;
 }
 
+.brand-text {
+  padding-left: 1rem;
+}
+
 .py-5 {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
@@ -50,10 +54,15 @@ a:hover {
 }
 
 .intro-text {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  line-height: 2rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
   padding-bottom: 1.5rem;
+}
+
+.intro-text .highlight:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .about-text {

@@ -11,15 +11,19 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
-          <h2 className="list-post-title">&frasl;&frasl; Be Human</h2>
+          {/*<h2 className="list-post-title">&frasl;&frasl; Be Human</h2>*/}
           <section className="intro-text">
             <p>
-              Welcome to the online space of Stuart Mackenzie - Creative plate
-              spinner and experienced leader of product & technology teams
-              working in Public Services. I use this site as a sandbox to test
-              ideas and occassionally share random thoughts.{' '}
+              <strong>Welcome to the online home of Stuart Mackenzie</strong> -
+              Creative plate spinner and experienced leader of product &
+              technology teams working in Public Services.
+            </p>
+            <p>
+              I use this site as a sandbox to test ideas and occassionally share
+              my thoughts in an attempt
+              <strong> be human. </strong> You can find out more{' '}
               <Link className="post-nav" to="/about/">
-                Find out more...
+                about me here.
               </Link>
             </p>
           </section>
@@ -63,7 +67,7 @@ const IndexPage = ({ data }) => {
           <div className="post-nav">
             <div className="row">
               <div className="col text-right">
-                <Link to="/blog/">Visit Blog &gt;&gt;</Link>
+                <Link to="/blog/">MORE POSTS &gt;&gt;</Link>
               </div>
             </div>
           </div>

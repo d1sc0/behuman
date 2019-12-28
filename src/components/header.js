@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
     <header>
       <Navbar collapseOnSelect expand="md" variant="dark">
         <Navbar.Brand id="top">
-          <Link to="/" className="navbar-brand text-uppercase text-sm-center">
+          <Link to="/" className="navbar-brand text-sm-center">
             <img
               className="text-sm-center"
               width="50"
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => {
               alt=""
               title="Be Human"
             />
-            {/* {siteTitle} */}
+            {/* <span className="brand-text">{siteTitle}</span> */}
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
