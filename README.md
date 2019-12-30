@@ -21,10 +21,11 @@ Create a new personal site/blog using serverless....
 3. Migrate old content - Done
 4. Write about page - Done
 5. Check out SEO and twitter cards - Done
-6. Create contact form
-7. Config CircleCI/ Stand up on Zeit
-8. Configure DNS
-9. Tidy
+6. Add in social icons to about page
+7. Create contact form/page
+8. Config CircleCI/ Stand up on Zeit
+9. Configure DNS
+10. Tidy
 
-10. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
-11. Create a side hustle for Behuman.xyz
+11. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
+12. Create a side hustle for Behuman.xyz
