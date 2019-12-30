@@ -10,7 +10,7 @@ const AboutPage = ({ data }) => {
   const aboutImage = data.aboutImage.childImageSharp.fluid
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" />
+      <SEO title="Stuart Mackenzie" description="All about Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human." />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
           <div className="">

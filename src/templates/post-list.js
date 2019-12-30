@@ -14,7 +14,7 @@ const BlogPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Blog" description="Posts, stories, thoughts and reflections from Stuart Mackenzie" />
       <div className="row py-5 justify-content-md-center mx-2">
         <div className="col col-md-8">
           <h2 className="list-post-title">&frasl;&frasl; Blog Posts</h2>

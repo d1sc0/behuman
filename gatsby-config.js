@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Words lost...`,
     author: `Stuart Mackenzie`,
-    description: `Personal website of Stuart Mackenzie`,
-    siteUrl: `https://words.lostinthe.uk/`,
+    description: `Home of Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human.`,
+    siteUrl: `https://words-lost-2020.now.sh/`,
     social: {
       twitter: `_disco`,
     },
