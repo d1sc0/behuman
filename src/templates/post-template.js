@@ -8,14 +8,12 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 const PostPage = ({ data }) => {
   const post = data.mdx
   const siteTitle = data.site.siteMetadata.title
-  const cardimage = post.frontmatter.socialimage.publicURL
-  
+
   return (
     <Layout title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
-        cardimage={cardimage}
       />
       <article>
         <div className="post-header">
@@ -57,7 +55,6 @@ export const data = graphql`
         date(formatString: "DD MMM YYYY")
         description
         slug
-        socialimage{publicURL}
       }
     }
   }
