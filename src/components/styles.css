@@ -161,12 +161,14 @@ a:hover {
 }
 
 .post-content a,
+.about-text a,
 .intro-text a,
 .post-nav a {
   color: #333;
   border-bottom: 2px solid #2d59e8;
 }
 .post-content a:hover,
+.about-text a:hover,
 .intro-text a:hover,
 .post-nav a:hover {
   color: #2d59e8;

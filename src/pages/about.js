@@ -2,11 +2,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-//import { Link } from 'gatsby'
+import Image from 'gatsby-image'
+import { Link } from 'gatsby'
 
 const AboutPage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
-
+  const aboutImage = data.aboutImage.childImageSharp.fluid
   return (
     <Layout title={siteTitle}>
       <SEO title="About" />
@@ -16,18 +17,32 @@ const AboutPage = ({ data }) => {
             <h2 className="list-post-title">&frasl;&frasl; Stuart Mackenzie</h2>
           </div>
           <article className="about-text">
-            <p>
-              Stuart Mackenzie Lives in Dorset but working out of London
-              transforming public services with the awesome team at FutureGov.{' '}
+            <p className="py-1">
+              Hi - I'm Stuart Mackenzie! I live in{' '}
+              <a href="https://www.visit-dorset.com/">Dorset</a> but spend much
+              of my time working out of London transforming public services as
+              the Product & Technology Director at{' '}
+              <a href="https://wearefuturegov.com">FutureGov</a>.
             </p>
-            <p>
-              A father, husband, technology nerd, photographer, dog owner,
-              podcaster, runner and exotic disco dancer.{' '}
+            <p className="py-1">
+              When not working I'm also known for being a father, husband,
+              technology nerd, photographer,{' '}
+              <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{' '}
+              <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{' '}
+              <a href="https://www.strava.com/athletes/1170885">runner</a> and
+              exotic disco dancer.{' '}
             </p>
-            <p>
-              This blog is where I post my thoughts and experiment with
-              different web technologies. You can find my photography site here.
+            <p className="py-1">
+              I use this site as a sandbox to test ideas and occassionally share
+              my thoughts and reflections. Feel free to{' '}
+              <Link to="/contact">contact me</Link> or connect via any of the
+              profiles below.
             </p>
+            <Image
+              fluid={aboutImage}
+              className="about-image rounded"
+              alt="dog reading"
+            />
           </article>
         </div>
       </div>
@@ -37,6 +52,16 @@ const AboutPage = ({ data }) => {
 
 export const data = graphql`
   query {
+    aboutImage: file(relativePath: { eq: "stuart-mackenzie.jpg" }) {
+      childImageSharp {
+        fluid(
+          duotone: { highlight: "#ffffff", shadow: "#192550" }
+          toFormat: PNG
+        ) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     site {
       siteMetadata {
         title
