@@ -20,8 +20,7 @@ const IndexPage = ({ data }) => {
             </p>
             <p>
               I use this site as a sandbox to test ideas and occassionally share
-              my thoughts in an attempt
-              <strong> be human. </strong> You can find out more{' '}
+              my thoughts and reflections. You can find out more{' '}
               <Link className="post-nav" to="/about/">
                 about me here.
               </Link>
