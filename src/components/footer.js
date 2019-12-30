@@ -11,7 +11,7 @@ const Footer = ({ siteTitle, siteAuthor }) => {
           <a href="#top">Back to top</a>
         </p>
         <p>
-          {siteTitle} - {new Date().getFullYear()} © {siteAuthor}
+          {new Date().getFullYear()} © {siteAuthor} - {siteTitle}
           <br />
           Site made with <IoIosHeart className="foot-icon" size="1rem" /> using
           Gatsby, hosted on Zeit. <br />

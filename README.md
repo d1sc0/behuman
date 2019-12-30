@@ -1,4 +1,4 @@
-## BeHuman
+## Words lost...
 
 ### Purpose / Goal
 
@@ -20,8 +20,11 @@ Create a new personal site/blog using serverless....
 2. See if can use MDX - Done
 3. Migrate old content - Done
 4. Write about page
-5. Check out SEO and twitter cards
-6. Config CircleCI/ Stand up on Zeit
-7. Configure new domain
-8. Tidy
-9. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
+5. Create contact form
+6. Check out SEO and twitter cards
+7. Config CircleCI/ Stand up on Zeit
+8. Configure DNS
+9. Tidy
+
+10. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
+11. Create a side hustle for Behuman.xyz
