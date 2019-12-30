@@ -7,7 +7,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query LogoQuery {
-      logo: file(absolutePath: { regex: "/human.svg/" }) {
+      logo: file(absolutePath: { regex: "/words-lost.svg/" }) {
         publicURL
       }
     }
@@ -19,13 +19,13 @@ const Header = ({ siteTitle }) => {
         <Navbar.Brand id="top">
           <Link to="/" className="navbar-brand text-sm-center">
             <img
-              className="text-sm-center"
+              className=""
               width="50"
               src={data.logo.publicURL}
               alt=""
-              title="Be Human"
+              title="Words lost..."
             />
-            {/* <span className="brand-text">{siteTitle}</span> */}
+            <span className="brand-text">{siteTitle}</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
