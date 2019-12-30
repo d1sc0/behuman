@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Be Human`,
+    title: `Words lost...`,
     author: `Stuart Mackenzie`,
     description: `Personal website of Stuart Mackenzie`,
-    siteUrl: `https://behuman.xyz/`,
+    siteUrl: `https://words.lostinthe.uk/`,
     social: {
       twitter: `_disco`,
     },
@@ -60,8 +60,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Be Human`,
-        short_name: `BeHuman`,
+        name: `Words lost...`,
+        short_name: `WordsLost`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#111`,
