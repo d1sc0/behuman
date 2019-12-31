@@ -24,7 +24,7 @@ Create a new personal site/blog using serverless....
 6. Add in social icons to about page - Done
 7. Create contact form/page - Done
 8. Configure DNS - Done
-9. Config CircleCI/ Stand up on Zeit
+9. Config CircleCI/ Stand up on Zeit - Done
 10. Tidy
 
 11. Configure RSS plugin
