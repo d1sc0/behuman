@@ -3,7 +3,7 @@ module.exports = {
     title: `Words lost...`,
     author: `Stuart Mackenzie`,
     description: `Home of Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human.`,
-    siteUrl: `https://words-lost-2020.now.sh/`,
+    siteUrl: `https://words.lostinthe.uk/`,
     social: {
       twitter: `_disco`,
     },
