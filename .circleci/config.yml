@@ -32,4 +32,4 @@ jobs:
       - deploy:
           name: Deploy to Zeit Now
           path: ./public
-          command: now --prod --token $CIRCLE_ZEIT --name words-lost
+          command: now --prod --token $CIRCLEWORDSLOST --name words-lost
