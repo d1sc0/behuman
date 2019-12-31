@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => {
             <Link
               activeClassName="active"
               className="nav-link text-uppercase font-weight-bold mx-2"
-              to="/about/"
+              to="/contact/"
             >
               Contact
             </Link>

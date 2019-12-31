@@ -14,9 +14,12 @@ const BlogPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title="Blog" description="Posts, stories, thoughts and reflections from Stuart Mackenzie" />
-      <div className="row py-5 justify-content-md-center mx-2">
-        <div className="col col-md-8">
+      <SEO
+        title="Blog"
+        description="Posts, stories, thoughts and reflections from Stuart Mackenzie"
+      />
+      <div className="row py-5 justify-content-md-center mx-4">
+        <div className="col col-md-8 pb-5">
           <h2 className="list-post-title">&frasl;&frasl; Blog Posts</h2>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug

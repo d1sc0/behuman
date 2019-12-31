@@ -162,6 +162,7 @@ a:hover {
 
 .post-content a,
 .about-text a,
+.contact-text a,
 .intro-text a,
 .post-nav a {
   color: #333;
@@ -170,8 +171,14 @@ a:hover {
 .post-content a:hover,
 .about-text a:hover,
 .intro-text a:hover,
+.contact-text a:hover,
 .post-nav a:hover {
   color: #2d59e8;
+}
+
+.social-links a {
+  border-bottom: none;
+  color: #111;
 }
 
 blockquote {
@@ -206,4 +213,20 @@ blockquote {
   display: inherit;
   text-align: center;
   font-size: 80%;
+}
+
+.control-label {
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.btn-secondary {
+  background-color: rgb(2, 134, 46);
+  border: 1px solid #ced4da;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(2, 134, 46, 0.664);
+  border: 1px solid #ced4da;
 }

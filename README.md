@@ -21,8 +21,8 @@ Create a new personal site/blog using serverless....
 3. Migrate old content - Done
 4. Write about page - Done
 5. Check out SEO and twitter cards - Done
-6. Add in social icons to about page
-7. Create contact form/page
+6. Add in social icons to about page - Done
+7. Create contact form/page - Done
 8. Config CircleCI/ Stand up on Zeit
 9. Configure DNS
 10. Tidy

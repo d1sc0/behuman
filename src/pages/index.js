@@ -10,8 +10,7 @@ const IndexPage = ({ data }) => {
     <Layout title={siteTitle}>
       <SEO title="Home" />
       <div className="row py-5 justify-content-md-center mx-2">
-        <div className="col col-md-8">
-          
+        <div className="col col-md-8 pb-5">
           <section className="intro-text">
             <p>
               <strong>Welcome to the online home of Stuart Mackenzie</strong> -

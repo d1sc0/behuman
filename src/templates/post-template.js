@@ -29,7 +29,7 @@ const PostPage = ({ data }) => {
           </div>
         </div>
         <div className="post-content row py-3 justify-content-md-center mx-2">
-          <div className="col col-md-8">
+          <div className="col col-md-8 pb-5">
             <MDXRenderer>{post.body}</MDXRenderer>
           </div>
         </div>
