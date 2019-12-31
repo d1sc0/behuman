@@ -27,5 +27,6 @@ Create a new personal site/blog using serverless....
 9. Configure DNS
 10. Tidy
 
-11. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
-12. Create a side hustle for Behuman.xyz
+11. Configure RSS plugin
+12. Sort out seperate photo porfolio site to replace stuartmackenzie.xyz
+13. Create a side hustle for Behuman.xyz
