@@ -38,7 +38,7 @@ const ContactPage = ({ data }) => {
               </label>
               <input
                 type="text"
-                name="name"
+                name="full-name"
                 className="form-control"
                 id="full-name"
                 placeholder="Enter your name here..."
