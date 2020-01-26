@@ -83,7 +83,7 @@ const AboutPage = ({ data }) => {
 
 export const data = graphql`
   query {
-    aboutImage: file(relativePath: { eq: "stuart-mackenzie.jpg" }) {
+    aboutImage: file(relativePath: { eq: "hello2.jpg" }) {
       childImageSharp {
         fluid(
           duotone: { highlight: "#ffffff", shadow: "#192550" }
